@@ -37,7 +37,7 @@ export function IncludeList(props) {
       props.onListItemChange({ include: newList });
     } else {
       setItemList({ ...itemList, items: newList });
-      props.onListItemChange({ exclude: newList });
+      props.onListItemChange({ exclude: newList }); 
     }
   }
 
